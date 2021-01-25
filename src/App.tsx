@@ -4,11 +4,9 @@ interface Props {
   name: string;
 }
 
-class App extends React.Component<Props> {
-  render() {
-    const { name } = this.props;
-    return <div>{name} Giphy Search Test</div>;
-  }
-}
+const App = (props: Props): React.ReactElement => {
+  const { name } = props;
+  return <div>{name} Giphy Serch</div>;
+};
 
 export default App;
