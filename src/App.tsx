@@ -6,7 +6,7 @@ interface Props {
 
 const App = (props: Props): React.ReactElement => {
   const { name } = props;
-  return <div>{name} Giphy Serch</div>;
+  return <div>{name} Giphy Search</div>;
 };
 
 export default App;
